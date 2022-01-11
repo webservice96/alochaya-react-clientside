@@ -1,0 +1,33 @@
+.header {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    height: 80px;
+    line-height: 40px;
+}
+
+.menu .navbar-nav {
+    width: 100%;
+}
+
+.menu .navbar-nav a {
+    font-size: 17px;
+    font-weight: 600;
+    color: #000 !important;
+    transition: .3s;
+}
+
+.menu .navbar-nav a:hover {
+    color: #FF0000 !important;
+}
+
+.header-social a {
+    color: #000;
+    font-size: 13px;
+    border: 1px solid #000;
+    width: 25px;
+    display: inline-block;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50px;
+    margin-left: 15px;
+}
