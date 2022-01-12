@@ -1,0 +1,53 @@
+.cor-related-faq {
+    background-image: url('../../../../assets/img/corShape.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+.cor-related-faq .container {
+    background: #F7F7F7;
+    padding: 40px;
+}
+
+.cor-related-faq .container {
+    background: #F7F7F7;
+    padding: 40px;
+}
+
+.cor-relatedfaq-header h2 {
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.cor-relatedfaq-header {
+    margin-bottom: 40px;
+}
+
+.accordion {
+    border: none;
+}
+
+.accordion-item {
+    border: none;
+}
+
+.accordion-item.active {}
+
+.accordion .accordion-item.active .title {
+    background: #C4C4C4;
+    color: #E02F36;
+}
+
+.accordion-item.active .panel {
+    background: #EAEAEA;
+    padding: 17px;
+}
+
+.accordion .accordion-item .title:after {
+    float: left;
+    background: #E0E0E0;
+    padding: 2px;
+    border-radius: 50%;
+    margin: 0 10px;
+}

@@ -47,11 +47,11 @@ function AmaderSheba() {
                                 </ListGroup>
                             </div>
 
-                            <div className="amadershebaBtn">
+                            {/* <div className="amadershebaBtn">
                                 <Link to="#"><Button variant="light" className='shadow'><i className="fas fa-plus"></i> নিয়োগ পত্র</Button></Link>
                                 <Link to="#"><Button variant="light" className='shadow'><i className="fas fa-plus"></i> চুক্তিপত্র</Button></Link>
                                 <Link to="#"><Button variant="light" className='shadow'><i className="fas fa-plus"></i> ছাড়পত্র</Button></Link>
-                            </div>
+                            </div> */}
                         </Col>
                     </Row>
                 </Container>

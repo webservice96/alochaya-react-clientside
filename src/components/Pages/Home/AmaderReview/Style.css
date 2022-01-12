@@ -1,0 +1,57 @@
+.amaderReview {
+    background-image: url('../../../../assets/img/review-shape.png');
+    margin-bottom: 100px;
+}
+
+.review-header img {
+    width: 65px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.review-person {
+    display: flex;
+}
+
+.review-person-info h3 {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.review-person-info p {
+    color: #E02F36;
+    font-weight: 400;
+}
+
+.review-person-info {
+    margin-left: 10px;
+}
+
+.review-start {
+    color: gold;
+    font-size: 14px;
+}
+
+.review-start i {
+    margin-left: 3px;
+}
+
+.review-body {
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.single-review {
+    padding: 40px;
+}
+
+.amderReview-header h2 {
+    font-size: 34px;
+    font-weight: 600;
+}
