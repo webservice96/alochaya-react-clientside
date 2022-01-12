@@ -1,0 +1,50 @@
+.district-slider {
+    text-align: center;
+}
+
+.working-district {
+    background-image: url('../../../../assets/img/working-district-shap.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.working-district-left h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.working-distict-tab .nav-tabs .nav-item.show .nav-link, .working-distict-tab .nav-tabs .nav-link.active {
+    border: none !important;
+}
+
+ul.working-distict-tab {
+    border: none;
+}
+
+ul.working-distict-tab .nav-link {
+    background: #838383;
+    margin-right: 11px;
+    color: #fff;
+    width: 95px;
+}
+
+ul.working-distict-tab .nav-link.active {
+    background: #E02F36;
+    color: #fff;
+}
+
+.working-district .tab-content {
+    background-color: #F7F7F7;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+.working-district ol li {
+    margin-bottom: 11px;
+}
+
+.working-district {
+    padding: 80px 0;
+    margin-bottom: 100px;
+}

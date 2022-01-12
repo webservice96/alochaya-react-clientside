@@ -1,0 +1,52 @@
+.website-image {
+    background-image: url('../../../../assets/img/websiteShap.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.website-titleIcon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.website-titleIcon .card-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.website-socialIcon a {
+    background: #000;
+    margin-left: 13px;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.websiteLink {
+    color: #E02F36;
+}
+
+.amader-website-header h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: #958E9B;
+}
+
+.swiper-pagination-bullet-active {
+    background: #E02F36;
+}
+
+.amader-website {
+    background-color: #F7F7F7;
+    padding: 80px;
+    margin-bottom: 100px;
+}

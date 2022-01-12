@@ -61,7 +61,7 @@ function Manager() {
                     <Row>
                         {
                             managers.map(manager => (
-                                <Col>
+                                <Col key={manager.name}>
                                     <Card>
                                         <div className="manager-img text-center">
                                             <Card.Img variant="top" src={manager.photoSrc} />

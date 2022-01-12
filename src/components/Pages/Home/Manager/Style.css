@@ -6,6 +6,7 @@
 
 .manager-sec .card {
     height: 100%;
+    box-shadow: 0px 2px 7px -1px rgb(0 0 0 / 30%)
 }
 
 .manager-textContent {
