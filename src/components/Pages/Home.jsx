@@ -1,4 +1,5 @@
 import React from 'react'
+import AmaderSheba from './Home/AmaderSheba/AmaderSheba';
 import AmaderWebsite from './Home/AmaderWebsite/AmaderWebsite';
 import Banner from './Home/Banner/Banner';
 import Manager from './Home/Manager/Manager';
@@ -11,6 +12,7 @@ function Home() {
             <Manager />
             <AmaderWebsite />
             <WorkingDistrict />
+            <AmaderSheba />
         </>
     )
 }
