@@ -1,0 +1,22 @@
+.homeBtn button {
+    background-color: #000;
+    border: none;
+    width: 200px;
+}
+
+.homeBtn button:hover {
+    background: #E02F36;
+}
+
+.homeBtn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.homeBtn-sec {
+    margin-bottom: 100px;
+}
+
+.homeBtn button i {
+    margin-right: 13px;
+}

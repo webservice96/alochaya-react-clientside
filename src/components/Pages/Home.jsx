@@ -4,6 +4,8 @@ import AmaderSheba from './Home/AmaderSheba/AmaderSheba';
 import AmaderWebsite from './Home/AmaderWebsite/AmaderWebsite';
 import Banner from './Home/Banner/Banner';
 import CorRelatedFaq from './Home/CorRelatedFaq/CorRelatedFaq';
+import FormPreview from './Home/FormPreview/FormPreview';
+import LinkBtn from './Home/LinkBtn/LinkBtn';
 import Manager from './Home/Manager/Manager';
 import WorkingDistrict from './Home/WorkingDistrict/WorkingDistrict';
 
@@ -17,6 +19,8 @@ function Home() {
             <AmaderSheba />
             <AmaderReview />
             <CorRelatedFaq />
+            <LinkBtn />
+            <FormPreview />
         </>
     )
 }
