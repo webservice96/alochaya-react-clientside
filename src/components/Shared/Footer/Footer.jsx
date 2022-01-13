@@ -1,10 +1,35 @@
 import React from 'react';
-import { Col, Container, Nav, Navbar, Row } from 'react-bootstrap';
+import { Button, Col, Container, Nav, Navbar, Row } from 'react-bootstrap';
 import './Style.css';
+
+import topImg from '../../../assets/img/footer-top-right.png';
 
 function Footer() {
     return (
         <>
+
+            <div className="footer-top">
+                <Container>
+                    <Row className="justify-content-center align-items-center">
+                        <Col xs={12} md={6}>
+                            <div className="footer-top-left">
+                                <h3>কোন প্রশ্ন থাকলে যোগাযোগ করুন</h3>
+                                <ul>
+                                    <li><i class="fas fa-phone-alt"></i> ০১৭১৩-৭০৫৩৪০</li>
+                                    <li><i class="fas fa-envelope"></i> ah3849495@gmail.com</li>
+                                </ul>
+                                <a href="mailto:ah3849495@gmail.com"><Button variant="danger">বার্তা পাঠান <i class="fas fa-arrow-right"></i></Button></a>
+                            </div>
+                        </Col>
+                        <Col xs={12} md={6}>
+                            <div className="footer-top-right text-center">
+                                <img src={topImg} alt="Not Found!" />
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
+
             <footer className="footer">
                 <Container>
                     <Row>

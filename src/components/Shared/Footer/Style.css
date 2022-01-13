@@ -1,3 +1,38 @@
+.home-form-preview-container {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.home-form-preview-sec {
+    margin-bottom: 100px;
+}
+
+.footer-top-left h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer-top-left ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 23px;
+}
+
+.footer-top-left li i {
+    margin-right: 5px;
+}
+
+.footer-top-left li {
+    margin-bottom: 5px;
+}
+
+.footer-top {
+    margin-bottom: 60px;
+}
+
 .footer {
     background-color: #222222;
     color: #fff;

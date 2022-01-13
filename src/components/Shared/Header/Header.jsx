@@ -21,11 +21,11 @@ function Header() {
                                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                                     <Navbar.Collapse id="basic-navbar-nav">
                                         <Nav className="justify-content-evenly">
-                                            <Nav.Link href="/">মূল পাতা</Nav.Link>
-                                            <Nav.Link href="/">পোর্টফলিও</Nav.Link>
-                                            <Nav.Link href="/">কর্মী সমূহ</Nav.Link>
-                                            <Nav.Link href="/">সেবা সমূহ</Nav.Link>
-                                            <Nav.Link href="/">যোগাযোগ</Nav.Link>
+                                            <Nav.Link as={Link} to="/home">মূল পাতা</Nav.Link>
+                                            <Nav.Link as={Link} to="/portfolio">পোর্টফলিও</Nav.Link>
+                                            <Nav.Link as={Link} to="/cormi">কর্মী সমূহ</Nav.Link>
+                                            <Nav.Link as={Link} to="/sebasomuho">সেবা সমূহ</Nav.Link>
+                                            <Nav.Link as={Link} to="/contact">যোগাযোগ</Nav.Link>
                                         </Nav>
                                     </Navbar.Collapse>
                                 </Container>

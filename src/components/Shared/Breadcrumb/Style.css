@@ -1,0 +1,19 @@
+.breacrumb {
+    background-image: url('../../../assets/img/breadcrumb-shap.png'), linear-gradient(108.35deg, rgba(9, 187, 170, 0.8) 9.91%, rgba(29, 143, 168, 0.72) 93.47%);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.breacrumb h2 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.breacrumb p {
+    font-weight: 400;
+    font-size: 24px;
+}
