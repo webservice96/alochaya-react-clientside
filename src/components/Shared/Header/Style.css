@@ -32,6 +32,12 @@
     margin-left: 15px;
 }
 
-.menu .nav-link.active, .footer-menu .nav-link.active {
+.menu .nav-link.active, .footer-menu .nav-link.active, .mobile-menu .nav-link.active {
     color: #FF0000 !important;
+}
+
+.mobile-menu .navbar-collapse {
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0 0 16px 1px #00000026;
 }

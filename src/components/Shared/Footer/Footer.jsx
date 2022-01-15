@@ -45,7 +45,7 @@ function Footer() {
                         </Col>
                         <Col md={7}>
                             <div className="footer-menu">
-                                <Nav className="justify-content-evenly">
+                                <Nav className="footer-menu-flex justify-content-evenly">
                                     <Nav.Item>
                                         <NavLink to="/" className="nav-link">মূল পাতা</NavLink>
                                     </Nav.Item>

@@ -8,7 +8,7 @@ function Header() {
     return (
         <div className="header">
             <Container>
-                <Row className='align-items-center'>
+                <Row className='align-items-center desktop-menu'>
                     <Col sm={3} md={2}>
                         <div className="header-logo">
                             <Link to="/"><img src={Logo} alt="Alo Chaya" /></Link>
@@ -40,20 +40,25 @@ function Header() {
                     </Col>
                 </Row>
 
-                {/* <Row>
-                    <Navbar bg="light" expand="lg">
-                        <Container>
-                            <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-                            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                            <Navbar.Collapse id="basic-navbar-nav">
-                                <Nav className="me-auto">
-                                    <Nav.Link href="#home">Home</Nav.Link>
-                                    <Nav.Link href="#link">Link</Nav.Link>
-                                </Nav>
-                            </Navbar.Collapse>
-                        </Container>
+                <Row className='mobile-menu'>
+                    <Navbar expand="lg">
+                        <Link to="/" className='navbar-brand'>
+                            <div className="header-logo">
+                                <Link to="/"><img src={Logo} alt="Alo Chaya" /></Link>
+                            </div>
+                        </Link>
+                        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                        <Navbar.Collapse id="basic-navbar-nav">
+                            <Nav className="me-auto">
+                                <NavLink to="/" className="nav-link">মূল পাতা</NavLink>
+                                <NavLink to="/portfolio" className="nav-link">পোর্টফলিও</NavLink>
+                                <NavLink to="/cormi" className="nav-link">কর্মী সমূহ</NavLink>
+                                <NavLink to="/sebasomuho" className="nav-link">সেবা সমূহ</NavLink>
+                                <NavLink to="/contact" className="nav-link">যোগাযোগ</NavLink>
+                            </Nav>
+                        </Navbar.Collapse>
                     </Navbar>
-                </Row> */}
+                </Row>
             </Container>
         </div>
     )
