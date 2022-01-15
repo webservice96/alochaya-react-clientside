@@ -1,0 +1,41 @@
+.contact-sec {
+    padding: 80px 0;
+    margin-bottom: 20px;
+}
+
+.contact-sec {
+    padding: 80px 0;
+    margin-bottom: 20px;
+    background-image: url('../../../../assets/img/contact-shap.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.textContact-box h3 {
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.textContact-box p {
+    color: #838383;
+    font-size: 17px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.social-contact a {
+    color: #000;
+    margin-right: 15px;
+    transition: .3s;
+    width: 25px;
+    display: inline-block;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.social-contact a:hover {
+    background: #E02F36;
+    color: #fff;
+}

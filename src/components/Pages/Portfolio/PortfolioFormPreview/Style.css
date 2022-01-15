@@ -1,0 +1,17 @@
+.PortfolioFormPreview-header h2 {
+    border: 1px solid;
+    display: inline-block;
+    padding: 10px 50px;
+    border-radius: 4px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.PortfolioFormPreview {
+    margin-bottom: 100px;
+    padding: 40px 0;
+}
+
+.portfolio-second-form {
+    margin-top: 80px;
+}

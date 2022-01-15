@@ -13,7 +13,7 @@ function Home() {
     return (
         <>
             <Banner />
-            <Manager />
+            <Manager title="আমাদের ম্যানেজার সমূহ" desc="আমাদের দলের সাথে যোগাযোগ করুন" />
             <AmaderWebsite />
             <WorkingDistrict />
             <AmaderSheba />

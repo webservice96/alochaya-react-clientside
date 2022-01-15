@@ -1,9 +1,15 @@
 import React from 'react';
 import Breadcrumb from '../Shared/Breadcrumb/Breadcrumb';
+import PortfolioFormPreview from './Portfolio/PortfolioFormPreview/PortfolioFormPreview';
+import PortfolioWebsite from './Portfolio/PortfolioWebsite/PortfolioWebsite';
 
 const Portfolio = () => {
     return (
-        <Breadcrumb title="আমাদের ওয়েবসাইট" desc="কোন প্রশ্ন বা মন্তব্য? শুধু আমাদের একটি বার্তা লিখুন" />
+        <>
+            <Breadcrumb title="আমাদের ওয়েবসাইট" />
+            <PortfolioWebsite />
+            <PortfolioFormPreview />
+        </>
     )
 }
 

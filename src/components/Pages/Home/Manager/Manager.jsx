@@ -49,14 +49,18 @@ const managers = [
     },
 ];
 
-function Manager() {
+function Manager({ title, desc }) {
     return (
         <>
             <div className="manager-sec">
                 <Container>
                     <div className="manager-textContent text-center">
-                        <h3>আমাদের ম্যানেজার সমূহ</h3>
-                        <h2>আমাদের দলের সাথে যোগাযোগ করুন</h2>
+                        <h3>{title}</h3>
+                        {
+                            desc && (
+                                <h2>{desc}</h2>
+                            )
+                        }
                     </div>
                     <Row>
                         {

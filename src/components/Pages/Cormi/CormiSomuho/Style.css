@@ -1,0 +1,17 @@
+.cormiSomuho-header h2 {
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.cormiSomuho-sec {
+    background: #F7F7F7;
+    padding: 50px;
+    margin-bottom: 100px;
+}
+
+.cormiFormPreview {
+    background-image: url('../../../../assets/img/review-shape.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-bottom: 60px;
+}

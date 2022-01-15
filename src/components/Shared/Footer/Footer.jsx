@@ -3,6 +3,7 @@ import { Button, Col, Container, Nav, Navbar, Row } from 'react-bootstrap';
 import './Style.css';
 
 import topImg from '../../../assets/img/footer-top-right.png';
+import { NavLink } from 'react-router-dom';
 
 function Footer() {
     return (
@@ -46,19 +47,19 @@ function Footer() {
                             <div className="footer-menu">
                                 <Nav className="justify-content-evenly">
                                     <Nav.Item>
-                                        <Nav.Link href="/">মূল পাতা</Nav.Link>
+                                        <NavLink to="/" className="nav-link">মূল পাতা</NavLink>
                                     </Nav.Item>
                                     <Nav.Item>
-                                        <Nav.Link href="/">পোর্টফলিও</Nav.Link>
+                                        <NavLink to="/portfolio" className="nav-link">পোর্টফলিও</NavLink>
                                     </Nav.Item>
                                     <Nav.Item>
-                                        <Nav.Link href="/">কর্মী সমূহ</Nav.Link>
+                                        <NavLink to="/cormi" className="nav-link">কর্মী সমূহ</NavLink>
                                     </Nav.Item>
                                     <Nav.Item>
-                                        <Nav.Link href="/">সেবা সমূহ</Nav.Link>
+                                        <NavLink to="/sebasomuho" className="nav-link">সেবা সমূহ</NavLink>
                                     </Nav.Item>
                                     <Nav.Item>
-                                        <Nav.Link href="/">যোগাযোগ</Nav.Link>
+                                        <NavLink to="/contact" className="nav-link">যোগাযোগ</NavLink>
                                     </Nav.Item>
                                 </Nav>
                             </div>

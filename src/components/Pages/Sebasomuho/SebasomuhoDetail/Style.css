@@ -1,0 +1,32 @@
+.SebasomuhoDetail-sec {
+    padding: 80px;
+    margin-bottom: 20px;
+    background-image: url('../../../../assets/img/corShape.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.seba-item h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.seba-item p {
+    color: #838383;
+}
+
+.sheba-detail-img {
+    background-color: #E2E2E2;
+    display: inline-block;
+    width: 77px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    margin-bottom: 20px;
+}
+
+.SebasomuhoDetail-sec .card {
+    height: 100%;
+}
