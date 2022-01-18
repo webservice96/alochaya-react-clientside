@@ -15,6 +15,10 @@
     font-weight: 600;
 }
 
+.website-socialIcon {
+    width: 40px;
+}
+
 .website-socialIcon a {
     background: #000;
     margin-left: 13px;
@@ -25,6 +29,11 @@
     text-align: center;
     line-height: 25px;
     border-radius: 50%;
+    color: #fff;
+    margin-bottom: 6px;
+}
+
+.website-socialIcon a:hover {
     color: #fff;
 }
 

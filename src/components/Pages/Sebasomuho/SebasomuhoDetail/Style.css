@@ -9,12 +9,14 @@
 .seba-item h3 {
     font-size: 18px;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     line-height: 24px;
 }
 
 .seba-item p {
     color: #838383;
+    font-size: 14px;
+    margin-bottom: 6px;
 }
 
 .sheba-detail-img {

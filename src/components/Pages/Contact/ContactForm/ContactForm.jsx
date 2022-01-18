@@ -53,10 +53,10 @@ const ContactForm = () => {
                                 </div>
 
                                 <div className="social-contact">
-                                    <a href="/#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.facebook.com/alochaya.org" target="_blank"><i class="fab fa-facebook-f"></i></a>
                                     <a href="/#"><i class="fab fa-instagram"></i></a>
                                     <a href="/#"><i class="fab fa-twitter"></i></a>
-                                    <a href="/#"><i class="far fa-envelope"></i></a>
+                                    <a href="mailto:ah3849495@gmail.com"><i class="far fa-envelope"></i></a>
                                 </div>
                             </div>
                         </Col>

@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import './Style.css';
 
-import districtPreview from '../../../../assets/img/alo-chaya-book.png';
+import districtPreview from '../../../../assets/img/nidorshone-1.png';
 
 import SwiperCore, {
     Navigation
@@ -67,7 +67,10 @@ function WorkingDistrict() {
                         </Col>
                         <Col xs={12} md={5}>
                             <div className="district-slider">
-                                <Swiper navigation={true}>
+                                <Swiper
+                                    navigation={true}
+                                    style={{ padding: '0.5rem' }}
+                                >
                                     <SwiperSlide>
                                         <div>
                                             <img src={districtPreview} alt="Not Found!" />

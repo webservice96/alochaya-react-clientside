@@ -29,10 +29,12 @@
     margin-right: 15px;
     transition: .3s;
     width: 25px;
+    height: 25px;
     display: inline-block;
     font-size: 15px;
     text-align: center;
     border-radius: 50%;
+    line-height: 28px;
 }
 
 .social-contact a:hover {

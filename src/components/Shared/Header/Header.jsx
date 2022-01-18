@@ -34,8 +34,8 @@ function Header() {
                     </Col>
                     <Col sm={4} md={2}>
                         <div className="header-social text-end">
-                            <a href="/"><i className="fab fa-facebook-f"></i></a>
-                            <a href="/"><i className="far fa-envelope"></i></a>
+                            <a href="https://www.facebook.com/alochaya.org" target="_blank"><i className="fab fa-facebook-f"></i></a>
+                            <a href="mailto:ah3849495@gmail.com"><i className="far fa-envelope"></i></a>
                         </div>
                     </Col>
                 </Row>

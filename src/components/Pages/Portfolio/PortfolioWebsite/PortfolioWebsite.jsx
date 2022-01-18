@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import websitePhoto from '../../../../assets/img/websiteImg.png';
 
 const amaderSites = [

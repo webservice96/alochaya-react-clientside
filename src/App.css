@@ -22,6 +22,8 @@
     .homeBtn {
         flex-wrap: wrap;
         justify-content: center !important;
+        flex-direction: column;
+        text-align: center;
     }
 
     .homeBtn a {

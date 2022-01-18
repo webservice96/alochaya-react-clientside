@@ -13,6 +13,9 @@ const Cormi = () => {
             <Manager title="আমাদের ম্যানেজার সমূহ" />
             <CormiSomuho />
 
+            <div className="PortfolioFormPreview-header text-center mb-4">
+                <h2>নিয়োগ পত্র</h2>
+            </div>
             <div className="cormiFormPreview text-center mb-5">
                 <img src={form} alt="Not Found!" />
             </div>

@@ -11,21 +11,25 @@ function Footer() {
 
             <div className="footer-top">
                 <Container>
-                    <Row className="justify-content-center align-items-center">
-                        <Col xs={12} md={6}>
-                            <div className="footer-top-left">
-                                <h3>কোন প্রশ্ন থাকলে যোগাযোগ করুন</h3>
-                                <ul>
-                                    <li><i class="fas fa-phone-alt"></i> ০১৭১৩-৭০৫৩৪০</li>
-                                    <li><i class="fas fa-envelope"></i> ah3849495@gmail.com</li>
-                                </ul>
-                                <a href="mailto:ah3849495@gmail.com"><Button variant="danger">বার্তা পাঠান <i class="fas fa-arrow-right"></i></Button></a>
-                            </div>
-                        </Col>
-                        <Col xs={12} md={6}>
-                            <div className="footer-top-right text-center">
-                                <img src={topImg} alt="Not Found!" />
-                            </div>
+                    <Row>
+                        <Col md={8} className='offset-md-2'>
+                            <Row className="justify-content-center align-items-center">
+                                <Col xs={12} md={6}>
+                                    <div className="footer-top-left">
+                                        <h3>কোন প্রশ্ন থাকলে যোগাযোগ করুন</h3>
+                                        <ul>
+                                            <li><i class="fas fa-phone-alt"></i> ০১৭১৩-৭০৫৩৪০</li>
+                                            <li><i class="fas fa-envelope"></i> ah3849495@gmail.com</li>
+                                        </ul>
+                                        <a href="mailto:ah3849495@gmail.com"><Button variant="danger">বার্তা পাঠান <i class="fas fa-arrow-right"></i></Button></a>
+                                    </div>
+                                </Col>
+                                <Col xs={12} md={6}>
+                                    <div className="footer-top-right text-center">
+                                        <img src={topImg} alt="Not Found!" />
+                                    </div>
+                                </Col>
+                            </Row>
                         </Col>
                     </Row>
                 </Container>
@@ -38,8 +42,8 @@ function Footer() {
                             <div className="footer-logo">
                                 <h2>আলো ছায়া</h2>
                                 <div className="footer-social">
-                                    <a href="/"><i className="fab fa-facebook-f"></i></a>
-                                    <a href="/"><i className="far fa-envelope"></i></a>
+                                    <a href="https://www.facebook.com/alochaya.org" target="_blank"><i className="fab fa-facebook-f"></i></a>
+                                    <a href="mailto:ah3849495@gmail.com"><i className="far fa-envelope"></i></a>
                                 </div>
                             </div>
                         </Col>

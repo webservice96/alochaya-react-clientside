@@ -44,3 +44,22 @@
 .amaderShebaList {
     margin-bottom: 48px;
 }
+
+.amaderShebaList .accordion-item .title {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+.amaderShebaList .accordion-item {
+    margin-bottom: 10px;
+}
+
+.amaderShebaList .accordion-item .title:hover {
+    background-color: #E02F36 !important;
+    color: #fff !important;
+}
+
+.amaderShebaList .accordion .accordion-item.active .title {
+    background: #E02F36 !important;
+    color: #fff !important;
+}
