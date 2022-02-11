@@ -32,7 +32,7 @@ function AmaderSheba() {
             <div className="amaderSheba">
                 <Container>
                     <div className="amadershebaHeader text-center">
-                        <h2>আমাদের সেবা সমূহ</h2>
+                        <h2 className='styled-heading'>আমাদের সেবা সমূহ</h2>
                     </div>
                     <Row>
                         <Col md={8} className='offset-md-2'>

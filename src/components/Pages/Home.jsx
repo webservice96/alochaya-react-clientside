@@ -20,7 +20,7 @@ function Home() {
             <AmaderReview />
             <CorRelatedFaq />
             <LinkBtn />
-            <FormPreview />
+            {/* <FormPreview /> */}
         </>
     )
 }

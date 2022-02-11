@@ -7,8 +7,9 @@ import SwiperCore, {
     Navigation, Pagination, Mousewheel, Keyboard
 } from 'swiper';
 import './Style.css';
-import { Card, Container } from 'react-bootstrap';
+import { Button, Card, Container } from 'react-bootstrap';
 import websitePhoto from '../../../../assets/img/websiteImg.png';
+import { Link } from 'react-router-dom';
 
 SwiperCore.use([Navigation, Pagination, Mousewheel, Keyboard]);
 
@@ -76,8 +77,8 @@ function AmaderWebsite() {
         <>
             <div className="amader-website">
                 <Container>
-                    <div className="amader-website-header">
-                        <h3 className='text-center'>আমাদের ওয়েবসাইট</h3>
+                    <div className="amader-website-header text-center">
+                        <h3 className='styled-heading'>আমাদের ওয়েবসাইট</h3>
                     </div>
                     <div className="amader-website-slide">
                         <Swiper
@@ -89,7 +90,7 @@ function AmaderWebsite() {
                             className="mySwiper"
                             slidesPerView={3}
                             spaceBetween={30}
-                            style={{ padding: '3rem' }}
+                            style={{ padding: '5rem' }}
                             breakpoints={{
                                 "0": {
                                     "slidesPerView": 1,
@@ -119,14 +120,26 @@ function AmaderWebsite() {
                                                 <div className="website-titleIcon">
                                                     <Card.Title>{amaderSite.title}</Card.Title>
                                                     <div className="website-socialIcon">
-                                                        <a href="/"><i class="fas fa-phone-alt"></i></a>
+                                                        <a href="/"><i class="fab fa-facebook-f"></i></a>
                                                         <a href="/"><i class="far fa-envelope"></i></a>
                                                     </div>
                                                 </div>
                                                 <Card.Text>
                                                     {amaderSite.subTitle}
                                                 </Card.Text>
-                                                <p>ওয়েবসাইট: <span className='websiteLink'>{amaderSite.website}</span></p>
+                                                {/* <p>ওয়েবসাইট: <span className='websiteLink'>{amaderSite.website}</span></p> */}
+                                                <div className="website-footer d-flex justify-content-between">
+                                                    <div>
+                                                        <Button variant="outline-danger">
+                                                            <a href={amaderSite.website}>ওয়েবসাইট</a>
+                                                        </Button>
+                                                    </div>
+                                                    <div>
+                                                        <Button variant="outline-danger">
+                                                            <Link to="/">মন্তব্য</Link>
+                                                        </Button>
+                                                    </div>
+                                                </div>
                                             </Card.Body>
                                         </Card>
                                     </SwiperSlide>

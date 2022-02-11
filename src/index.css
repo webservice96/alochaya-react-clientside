@@ -13,3 +13,18 @@ code {
 img {
   max-width: 100%;
 }
+
+.styled-heading {
+  position: relative;
+  display: inline-block;
+}
+
+.styled-heading:after {
+  position: absolute;
+  bottom: -4px;
+  width: 100%;
+  height: 2px;
+  content: "";
+  background-color: #EB3232;
+  left: 0;
+}

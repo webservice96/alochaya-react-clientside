@@ -3,10 +3,14 @@
     margin-bottom: 100px;
 }
 
-.review-header img {
+.review-header .reviwer-img {
     width: 65px;
     border-radius: 50%;
     border: 1px solid #ccc;
+}
+
+.review-header .website-image img {
+    width: 80px;
 }
 
 .review-header {

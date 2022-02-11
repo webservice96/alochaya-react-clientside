@@ -72,5 +72,10 @@
 
 .manager-social a {
     color: #59C5D1;
-    margin-left: 10px;
+    border: 1px solid #59C5D1;
+    border-radius: 50px;
+    width: 25px;
+    display: inline-block;
+    height: 25px;
+    text-align: center;
 }

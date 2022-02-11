@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import headManager from '../../../../assets/img/head-manager.png';
+import headManager from '../../../../assets/img/manager-1.png';
 import './Style.css';
 
 const HeadManager = () => {
@@ -16,12 +16,11 @@ const HeadManager = () => {
 
                             <div className="headManager-social mt-4 d-flex align-items-end justify-content-between">
                                 <ul>
-                                    <li><i className="fas fa-phone-alt"></i> ০১৬৫০২২৩৫৭৮</li>
-                                    <li><i className="fas fa-envelope"></i> shakilhasan055@gmail.com</li>
+                                    <li><i className="fas fa-phone-alt"></i>০১৭১৩-৭০৫৩৪০</li>
+                                    <li><i className="fas fa-envelope"></i>ah3849495@gmail.com</li>
                                 </ul>
                                 <div>
-                                    <a href="/#"><i className="fab fa-facebook-f"></i></a>
-                                    <a href="/#"><i className="fab fa-twitter"></i></a>
+                                    <a href="https://www.facebook.com/profile.php?id=100011891928263" target="_blank"><i className="fab fa-facebook-f"></i></a>
                                 </div>
                             </div>
                         </div>

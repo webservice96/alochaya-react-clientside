@@ -1,6 +1,7 @@
 import React from 'react';
-import { Card, Col, Container, Row } from 'react-bootstrap';
+import { Button, Card, Col, Container, Row } from 'react-bootstrap';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { Link } from 'react-router-dom';
 import websitePhoto from '../../../../assets/img/websiteImg.png';
 
 const amaderSites = [
@@ -66,8 +67,8 @@ const PortfolioWebsite = () => {
         <>
             <div className="amader-website mt-5">
                 <Container>
-                    <div className="amader-website-header mb-5">
-                        <h3 className='text-center'>আমাদের ওয়েবসাইট</h3>
+                    <div className="amader-website-header text-center mb-5">
+                        <h3 className='styled-heading'>আমাদের ওয়েবসাইট</h3>
                     </div>
                     <div className="amader-website-slide">
                         <Row>
@@ -89,7 +90,19 @@ const PortfolioWebsite = () => {
                                                 <Card.Text>
                                                     {amaderSite.subTitle}
                                                 </Card.Text>
-                                                <p>ওয়েবসাইট: <span className='websiteLink'>{amaderSite.website}</span></p>
+                                                {/* <p>ওয়েবসাইট: <span className='websiteLink'>{amaderSite.website}</span></p> */}
+                                                <div className="website-footer d-flex justify-content-between">
+                                                    <div>
+                                                        <Button variant="outline-danger">
+                                                            <a href={amaderSite.website}>ওয়েবসাইট</a>
+                                                        </Button>
+                                                    </div>
+                                                    <div>
+                                                        <Button variant="outline-danger">
+                                                            <Link to="/">মন্তব্য</Link>
+                                                        </Button>
+                                                    </div>
+                                                </div>
                                             </Card.Body>
                                         </Card>
                                     </Col>

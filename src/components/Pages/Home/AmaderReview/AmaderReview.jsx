@@ -2,6 +2,8 @@ import React from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import './Style.css';
 
+import websitePhoto from '../../../../assets/img/websiteImg.png';
+
 const reviews = [
     {
         _id: 1,
@@ -9,6 +11,7 @@ const reviews = [
         posittion: 'কর্মী',
         review: 'হাসাদাহ ইউনিয়ন বাংলাদেশের খুলনা বিভাগের চুয়াডাঙ্গা জেলার জীবননগর উপজেলার অন্তর্গত একটি ইউনিয়ন ব্যহত্তম বাঁকা ইউনিয়ন ভাগ হয়ে ৩ টি ইউনিয়ন করা হয়।  তার একটি ইউনিয়ন হলো হাসাদাহ ইউনিয়ন ২০১৩ সালে নিবার্চনের মাধ্যমে অত্র ইউনিয়ন প্রতিষ্টিত হয়।',
         photo: 'https://avatars.githubusercontent.com/u/35348437?v=4',
+        websitePhoto: websitePhoto
     },
     {
         _id: 2,
@@ -16,6 +19,7 @@ const reviews = [
         posittion: 'কর্মী',
         review: 'হাসাদাহ ইউনিয়ন বাংলাদেশের খুলনা বিভাগের চুয়াডাঙ্গা জেলার জীবননগর উপজেলার অন্তর্গত একটি ইউনিয়ন ব্যহত্তম বাঁকা ইউনিয়ন ভাগ হয়ে ৩ টি ইউনিয়ন করা হয়।  তার একটি ইউনিয়ন হলো হাসাদাহ ইউনিয়ন ২০১৩ সালে নিবার্চনের মাধ্যমে অত্র ইউনিয়ন প্রতিষ্টিত হয়।',
         photo: 'https://avatars.githubusercontent.com/u/35348437?v=4',
+        websitePhoto: websitePhoto
     },
     {
         _id: 3,
@@ -23,6 +27,7 @@ const reviews = [
         posittion: 'কর্মী',
         review: 'হাসাদাহ ইউনিয়ন বাংলাদেশের খুলনা বিভাগের চুয়াডাঙ্গা জেলার জীবননগর উপজেলার অন্তর্গত একটি ইউনিয়ন ব্যহত্তম বাঁকা ইউনিয়ন ভাগ হয়ে ৩ টি ইউনিয়ন করা হয়।  তার একটি ইউনিয়ন হলো হাসাদাহ ইউনিয়ন ২০১৩ সালে নিবার্চনের মাধ্যমে অত্র ইউনিয়ন প্রতিষ্টিত হয়।',
         photo: 'https://avatars.githubusercontent.com/u/35348437?v=4',
+        websitePhoto: websitePhoto
     },
     {
         _id: 4,
@@ -30,8 +35,9 @@ const reviews = [
         posittion: 'কর্মী',
         review: 'হাসাদাহ ইউনিয়ন বাংলাদেশের খুলনা বিভাগের চুয়াডাঙ্গা জেলার জীবননগর উপজেলার অন্তর্গত একটি ইউনিয়ন ব্যহত্তম বাঁকা ইউনিয়ন ভাগ হয়ে ৩ টি ইউনিয়ন করা হয়।  তার একটি ইউনিয়ন হলো হাসাদাহ ইউনিয়ন ২০১৩ সালে নিবার্চনের মাধ্যমে অত্র ইউনিয়ন প্রতিষ্টিত হয়।',
         photo: 'https://avatars.githubusercontent.com/u/35348437?v=4',
+        websitePhoto: websitePhoto
     },
-]
+];
 
 
 function AmaderReview() {
@@ -40,7 +46,7 @@ function AmaderReview() {
             <div className="amaderReview">
                 <Container>
                     <div className="amderReview-header mb-5">
-                        <h2>আমাদের মন্তব্য</h2>
+                        <h2 className='styled-heading'>আমাদের মন্তব্য</h2>
                     </div>
                     <Row>
                         {
@@ -51,19 +57,15 @@ function AmaderReview() {
                                             <div className="review-header">
                                                 <div className="review-person">
                                                     <div className="reviewer-img">
-                                                        <img src={review.photo} alt="Not Found!" />
+                                                        <img src={review.photo} className="reviwer-img" alt="Not Found!" />
                                                     </div>
                                                     <div className="review-person-info">
                                                         <h3>{review.name}</h3>
                                                         <p>{review.posittion}</p>
                                                     </div>
                                                 </div>
-                                                <div className="review-start">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star-half-alt"></i>
+                                                <div className="website-image">
+                                                    <img src={review.websitePhoto} alt="Not found!" />
                                                 </div>
                                             </div>
                                             <div className="review-body">
