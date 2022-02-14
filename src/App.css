@@ -19,6 +19,10 @@
         padding: 0 !important;
     }
 
+    .manager-sec .swiper {
+        padding: 2rem !important;
+    }
+
     .homeBtn {
         flex-wrap: wrap;
         justify-content: center !important;

@@ -63,6 +63,9 @@ function Footer() {
                                         <NavLink to="/sebasomuho" className="nav-link">সেবা সমূহ</NavLink>
                                     </Nav.Item>
                                     <Nav.Item>
+                                        <NavLink to="/montobbo" className="nav-link">মন্তব্য</NavLink>
+                                    </Nav.Item>
+                                    <Nav.Item>
                                         <NavLink to="/contact" className="nav-link">যোগাযোগ</NavLink>
                                     </Nav.Item>
                                 </Nav>

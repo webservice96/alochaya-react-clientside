@@ -8,34 +8,22 @@ const reviews = [
     {
         _id: 1,
         name: 'মো: শাকিল হোসেন',
-        posittion: 'কর্মী',
         review: 'হাসাদাহ ইউনিয়ন বাংলাদেশের খুলনা বিভাগের চুয়াডাঙ্গা জেলার জীবননগর উপজেলার অন্তর্গত একটি ইউনিয়ন ব্যহত্তম বাঁকা ইউনিয়ন ভাগ হয়ে ৩ টি ইউনিয়ন করা হয়।  তার একটি ইউনিয়ন হলো হাসাদাহ ইউনিয়ন ২০১৩ সালে নিবার্চনের মাধ্যমে অত্র ইউনিয়ন প্রতিষ্টিত হয়।',
-        photo: 'https://avatars.githubusercontent.com/u/35348437?v=4',
-        websitePhoto: websitePhoto
     },
     {
         _id: 2,
         name: 'মো: শাকিল হোসেন',
-        posittion: 'কর্মী',
         review: 'হাসাদাহ ইউনিয়ন বাংলাদেশের খুলনা বিভাগের চুয়াডাঙ্গা জেলার জীবননগর উপজেলার অন্তর্গত একটি ইউনিয়ন ব্যহত্তম বাঁকা ইউনিয়ন ভাগ হয়ে ৩ টি ইউনিয়ন করা হয়।  তার একটি ইউনিয়ন হলো হাসাদাহ ইউনিয়ন ২০১৩ সালে নিবার্চনের মাধ্যমে অত্র ইউনিয়ন প্রতিষ্টিত হয়।',
-        photo: 'https://avatars.githubusercontent.com/u/35348437?v=4',
-        websitePhoto: websitePhoto
     },
     {
         _id: 3,
         name: 'মো: শাকিল হোসেন',
-        posittion: 'কর্মী',
         review: 'হাসাদাহ ইউনিয়ন বাংলাদেশের খুলনা বিভাগের চুয়াডাঙ্গা জেলার জীবননগর উপজেলার অন্তর্গত একটি ইউনিয়ন ব্যহত্তম বাঁকা ইউনিয়ন ভাগ হয়ে ৩ টি ইউনিয়ন করা হয়।  তার একটি ইউনিয়ন হলো হাসাদাহ ইউনিয়ন ২০১৩ সালে নিবার্চনের মাধ্যমে অত্র ইউনিয়ন প্রতিষ্টিত হয়।',
-        photo: 'https://avatars.githubusercontent.com/u/35348437?v=4',
-        websitePhoto: websitePhoto
     },
     {
         _id: 4,
         name: 'মো: শাকিল হোসেন',
-        posittion: 'কর্মী',
         review: 'হাসাদাহ ইউনিয়ন বাংলাদেশের খুলনা বিভাগের চুয়াডাঙ্গা জেলার জীবননগর উপজেলার অন্তর্গত একটি ইউনিয়ন ব্যহত্তম বাঁকা ইউনিয়ন ভাগ হয়ে ৩ টি ইউনিয়ন করা হয়।  তার একটি ইউনিয়ন হলো হাসাদাহ ইউনিয়ন ২০১৩ সালে নিবার্চনের মাধ্যমে অত্র ইউনিয়ন প্রতিষ্টিত হয়।',
-        photo: 'https://avatars.githubusercontent.com/u/35348437?v=4',
-        websitePhoto: websitePhoto
     },
 ];
 
@@ -56,17 +44,17 @@ function AmaderReview() {
                                         <div className="single-review">
                                             <div className="review-header">
                                                 <div className="review-person">
-                                                    <div className="reviewer-img">
+                                                    {/* <div className="reviewer-img">
                                                         <img src={review.photo} className="reviwer-img" alt="Not Found!" />
-                                                    </div>
+                                                    </div> */}
                                                     <div className="review-person-info">
                                                         <h3>{review.name}</h3>
-                                                        <p>{review.posittion}</p>
+                                                        {/* <p>{review.posittion}</p> */}
                                                     </div>
                                                 </div>
-                                                <div className="website-image">
+                                                {/* <div className="website-image">
                                                     <img src={review.websitePhoto} alt="Not found!" />
-                                                </div>
+                                                </div> */}
                                             </div>
                                             <div className="review-body">
                                                 <p>{review.review}</p>

@@ -134,11 +134,11 @@ function AmaderWebsite() {
                                                             <a href={amaderSite.website}>ওয়েবসাইট</a>
                                                         </Button>
                                                     </div>
-                                                    <div>
+                                                    {/* <div>
                                                         <Button variant="outline-danger">
                                                             <Link to="/">মন্তব্য</Link>
                                                         </Button>
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                                             </Card.Body>
                                         </Card>

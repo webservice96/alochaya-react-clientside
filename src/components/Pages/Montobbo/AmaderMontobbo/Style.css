@@ -1,0 +1,6 @@
+.montobbo-input textarea,
+.montobbo-input textarea:focus,
+.montobbo-input input,
+.montobbo-input input:focus {
+    background: rgba(206, 206, 206, 0.5);
+}

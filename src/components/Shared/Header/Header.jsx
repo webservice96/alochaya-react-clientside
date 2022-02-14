@@ -25,6 +25,7 @@ function Header() {
                                             <NavLink to="/portfolio" className="nav-link">পোর্টফলিও</NavLink>
                                             <NavLink to="/cormi" className="nav-link">কর্মী সমূহ</NavLink>
                                             <NavLink to="/sebasomuho" className="nav-link">সেবা সমূহ</NavLink>
+                                            <NavLink to="/montobbo" className="nav-link">মন্তব্য</NavLink>
                                             <NavLink to="/contact" className="nav-link">যোগাযোগ</NavLink>
                                         </Nav>
                                     </Navbar.Collapse>
@@ -54,6 +55,7 @@ function Header() {
                                 <NavLink to="/portfolio" className="nav-link">পোর্টফলিও</NavLink>
                                 <NavLink to="/cormi" className="nav-link">কর্মী সমূহ</NavLink>
                                 <NavLink to="/sebasomuho" className="nav-link">সেবা সমূহ</NavLink>
+                                <NavLink to="/montobbo" className="nav-link">মন্তব্য</NavLink>
                                 <NavLink to="/contact" className="nav-link">যোগাযোগ</NavLink>
                             </Nav>
                         </Navbar.Collapse>

@@ -40,4 +40,5 @@
     background: #fff;
     padding: 15px;
     box-shadow: 0 0 16px 1px #00000026;
+    z-index: 999;
 }
