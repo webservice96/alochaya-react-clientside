@@ -15,6 +15,7 @@ import habib from '../../../../assets/img/habib.png';
 import masum from '../../../../assets/img/masum.png';
 import ramjan from '../../../../assets/img/ramjan.png';
 import habibRahman from '../../../../assets/img/habib-rahman.png';
+import shorif from '../../../../assets/img/team-member-2.png';
 
 SwiperCore.use([Navigation, Pagination, Mousewheel, Keyboard]);
 
@@ -63,7 +64,20 @@ const managers = [
         FbLink: '#',
         address: 'বীরগঞ্জ উপজেলা, দিনাজপুর'
     },
+    {
+        name: 'মো: শরিফ উদ্দিন',
+        photoSrc: shorif,
+        position: 'ম্যানেজার',
+        phone: ' ০১৭৬৩-৮১৬৭৫৮',
+        mail: 'নেই',
+        attendDate: '২০১২-০১-০১',
+        currentWorkStation: 'মিরপুর উপজেলা, কুষ্টিয়া',
+        FbLink: '#',
+        address: 'দেবীগঞ্জ উপজেলা, পঞ্চগড়'
+    },
 ];
+
+
 
 function Manager({ title, desc }) {
     return (

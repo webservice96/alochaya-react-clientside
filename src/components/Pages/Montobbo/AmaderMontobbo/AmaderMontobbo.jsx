@@ -2,32 +2,37 @@ import React from 'react';
 import { Button, Card, Col, Container, Form, Row } from 'react-bootstrap';
 import './Style.css';
 
+import reviewer1 from '../../../../assets/img/reviwer-1.png';
+import reviewer2 from '../../../../assets/img/reviwer-2.png';
+
 const reviews = [
     {
         _id: 1,
-        name: 'মো: শাকিল হোসেন',
+        name: 'মো: আ: ছালাম বিপ্লব',
+        photo: reviewer1,
+        podobi: "চেয়ারম্যান",
+        shortdesc: "১৪ নং চিৎলা ইউনিয়ন পরিষদ",
         review: 'হাসাদাহ ইউনিয়ন বাংলাদেশের খুলনা বিভাগের চুয়াডাঙ্গা জেলার জীবননগর উপজেলার অন্তর্গত একটি ইউনিয়ন ব্যহত্তম বাঁকা ইউনিয়ন ভাগ হয়ে ৩ টি ইউনিয়ন করা হয়।  তার একটি ইউনিয়ন হলো হাসাদাহ ইউনিয়ন ২০১৩ সালে নিবার্চনের মাধ্যমে অত্র ইউনিয়ন প্রতিষ্টিত হয়।',
     },
     {
         _id: 2,
-        name: 'মো: শাকিল হোসেন',
+        name: 'চির কুমার সাহ',
+        photo: reviewer2,
+        podobi: " সচিব",
+        shortdesc: "১৪ নং চিৎলা ইউনিয়ন পরিষদ",
         review: 'হাসাদাহ ইউনিয়ন বাংলাদেশের খুলনা বিভাগের চুয়াডাঙ্গা জেলার জীবননগর উপজেলার অন্তর্গত একটি ইউনিয়ন ব্যহত্তম বাঁকা ইউনিয়ন ভাগ হয়ে ৩ টি ইউনিয়ন করা হয়।  তার একটি ইউনিয়ন হলো হাসাদাহ ইউনিয়ন ২০১৩ সালে নিবার্চনের মাধ্যমে অত্র ইউনিয়ন প্রতিষ্টিত হয়।',
     },
-    {
-        _id: 3,
-        name: 'মো: শাকিল হোসেন',
-        review: 'হাসাদাহ ইউনিয়ন বাংলাদেশের খুলনা বিভাগের চুয়াডাঙ্গা জেলার জীবননগর উপজেলার অন্তর্গত একটি ইউনিয়ন ব্যহত্তম বাঁকা ইউনিয়ন ভাগ হয়ে ৩ টি ইউনিয়ন করা হয়।  তার একটি ইউনিয়ন হলো হাসাদাহ ইউনিয়ন ২০১৩ সালে নিবার্চনের মাধ্যমে অত্র ইউনিয়ন প্রতিষ্টিত হয়।',
-    }
+
 ];
 
 const AmaderMontobbo = () => {
     return (
         <>
-            <div className="amader-montobbo py-5">
+            <div className="amader-montobbo py-5 mb-5">
                 <Container>
                     <Row>
                         <Col className='col-md-12'>
-                            <div className="montobbo-input">
+                            {/* <div className="montobbo-input">
                                 <Form>
                                     <Row>
                                         <Col md={6}>
@@ -45,7 +50,7 @@ const AmaderMontobbo = () => {
                                         </Button>
                                     </div>
                                 </Form>
-                            </div>
+                            </div> */}
 
                             <div className="montobbo-list-header">
                                 <h2 className='styled-heading mb-5'>আপনাদের মন্তব্য</h2>
@@ -57,12 +62,13 @@ const AmaderMontobbo = () => {
                                                     <div className="single-review">
                                                         <div className="review-header">
                                                             <div className="review-person">
-                                                                {/* <div className="reviewer-img">
-                                                        <img src={review.photo} className="reviwer-img" alt="Not Found!" />
-                                                    </div> */}
-                                                                <div className="review-person-info">
+                                                                <div className="reviewer-img">
+                                                                    <img src={review.photo} className="reviwer-img" alt="Not Found!" />
+                                                                </div>
+                                                                <div className="review-person-info ps-3">
                                                                     <h3>{review.name}</h3>
-                                                                    {/* <p>{review.posittion}</p> */}
+                                                                    <p className='podobi'>পদবিঃ {review.podobi}</p>
+                                                                    <p className='short-desc'>{review.shortdesc}</p>
                                                                 </div>
                                                             </div>
                                                             {/* <div className="website-image">

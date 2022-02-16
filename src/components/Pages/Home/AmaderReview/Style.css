@@ -29,8 +29,14 @@
 }
 
 .review-person-info p {
-    color: #E02F36;
     font-weight: 400;
+    margin: 0;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.review-person-info .podobi {
+    font-size: 18px;
 }
 
 /* .review-person-info {
