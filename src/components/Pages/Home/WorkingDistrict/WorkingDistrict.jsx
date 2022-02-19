@@ -5,16 +5,12 @@ import "swiper/css";
 import "swiper/css/navigation";
 import './Style.css';
 
-import districtPreview1 from '../../../../assets/img/nidorshone-1.png';
-import districtPreview2 from '../../../../assets/img/1.মুজিবনগর_স্মৃতিসৌধ.jpg';
-import districtPreview3 from '../../../../assets/img/alochya-1.jpg';
-import districtPreview4 from '../../../../assets/img/alochya-2.png';
-import districtPreview5 from '../../../../assets/img/alochya-3.jpg';
-import districtPreview6 from '../../../../assets/img/alochya-4.jpg';
-import districtPreview7 from '../../../../assets/img/alochya-5.jpg';
-import districtPreview8 from '../../../../assets/img/alochya-6.jpg';
-import districtPreview9 from '../../../../assets/img/alochya-7.jpg';
-import districtPreview10 from '../../../../assets/img/Kusumba_Mosque,_Naogaon.jpg';
+import districtPreview1 from '../../../../assets/img/nidorshon/nidorshon-1.png';
+import districtPreview2 from '../../../../assets/img/nidorshon/nidorshon-2.png';
+import districtPreview3 from '../../../../assets/img/nidorshon/nidorshon-3.png';
+import districtPreview4 from '../../../../assets/img/nidorshon/nidorshon-4.png';
+import districtPreview5 from '../../../../assets/img/nidorshon/nidorshon-5.png';
+import districtPreview6 from '../../../../assets/img/nidorshon/nidorshon-6.png';
 
 import SwiperCore, {
     Navigation
@@ -47,23 +43,7 @@ const districtPreviews = [
     {
         _id: 6,
         photo: districtPreview6
-    },
-    {
-        _id: 7,
-        photo: districtPreview7
-    },
-    {
-        _id: 8,
-        photo: districtPreview8
-    },
-    {
-        _id: 9,
-        photo: districtPreview9
-    },
-    {
-        _id: 10,
-        photo: districtPreview10
-    },
+    }
 ];
 
 function WorkingDistrict() {

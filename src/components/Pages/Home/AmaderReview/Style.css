@@ -39,6 +39,10 @@
     font-size: 18px;
 }
 
+.amaderReview .card {
+    height: 100%;
+}
+
 /* .review-person-info {
     margin-left: 10px;
 } */
